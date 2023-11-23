@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width,initial-scale=1">-->
+  <title>SIA</title>
+  <link rel="stylesheet" type="text/css" href="style_index.css" />
+</head>
+
+<body>
+  <nav>
+    <a href="index.html"> <img src="immagini/icons8-code-50-(3).png" /> </a>
+    <div class="menu-options">
+      <span class="word-offset"><a href="prima_sia.html">1^Asia</a></span>
+      <span class="word-offset"><a href="scelta.html">Scelta Scolastica</a></span>
+      <span class="word-offset"><a href="#">About</a></span>
+    </div>
+  </nav>
+  <!--<img src="palazzi2.png" class="palazzi">-->
+  <img class="scrolling-image" src="immagini/palazzi2.png" alt="Scrolling Image" /> <!--immagine a cui verrà applicata poi la funzione-->
+
+  <!--
+    funzione java script che calcola la posizione dell'immagine che scrollerà (palazzi.png) e in base ad essa poi verrà 
+    calcolata l'opacità e verrà fatta scendere verso il basso o salire verso l'alto
+  -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var scrollingImage = document.querySelector(".scrolling-image");
+      var imagePosition2 = scrollingImage.getBoundingClientRect().top;
+      var lastScrollPosition = 0;
+
+      window.addEventListener("scroll", function () {
+        var scrollPosition = window.scrollY;
+        var windowHeight = window.innerHeight;
+        var currentScrollPosition = window.scrollY;
+
+        if (currentScrollPosition > lastScrollPosition) {
+          // Stai scrollando verso il basso
+          imagePosition2 = 1 + scrollPosition;
+        } else if (currentScrollPosition < lastScrollPosition) {
+          // Stai scrollando verso l'alto
+          imagePosition2 = scrollPosition - 1;
+        }
+
+        // Calcola la posizione dell'immagine in base allo scrolling
+        var imagePosition = windowHeight - scrollPosition;
+
+        // Imposta l'opacità in base alla posizione dell'immagine
+        scrollingImage.style.opacity = imagePosition / windowHeight;
+
+        lastScrollPosition = currentScrollPosition;
+
+        // effetto di traslazione per movimento più fluido
+        //scrollingImage.style.transform = 'translateY(' + imagePosition2 / 2 + 'px)';
+        scrollingImage.style.transform =
+          "translateY(" + imagePosition2 + "px)";
+      });
+    });
+  </script>
+
+  <br /><br />
+  <!--ogni lettera iniziale differisce di colore dalle altre per evidenziare la sigla "SIA"-->
+  <h1 class="titolo-principale">
+    <label style="color: rgb(0, 197, 241)">S</label>istemi
+    <label style="color: rgb(0, 197, 241)">I</label>nformativi<br /><label
+      style="color: rgb(0, 197, 241)">A</label>ziendali
+  </h1>
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  
+  <!--breve presentazione del sia-->
+  <!--<div class="testo">
+    <pre>
+          <h2>
+      Hai un interesse per la tecnologia e per la risoluzione di problemi?
+      Ti ritieni una persona creativa?</h2>
+         Per avere informazioni sulla classe prima SIA 4.0 <a href="prima_sia.html">clicca qui</a><h3>
+       I pilastri del corso sono l'economia aziendale e l'informatica, lo studio dell'informatica è ciò che la differenzia dagli altri corsi.
+       Se le risposte alle prime due domande sono "si" il corso SIA potrebbe essere fatto per te, questo corso rispetto agli altri è incentrato 
+       sulle competenze riguardante il problem solving (=capacità di risoluzione dei problemi) e il ragionamento logico applicate all'economia 
+       aziendale. Aiuta i suoi studenti a raggiungere una formazione ricca e completa incline alla tecnologia e alle sue metodologia più attuali
+       mantenendo anche il profilo economico, inoltre ti fornisce le basi per poter utilizzare la tecnologia in modo creativo e innovativo.                   
+       I macroargomenti affrontati nel percorso informatico del Sia sono i seguenti:
+          </h3></pre>
+  </div>-->
+  <div class="testo">
+    <h2>
+    Hai un interesse per la tecnologia e per la risoluzione di problemi?<br>Ti ritieni una persona creativa?
+    </h2>
+    <p>
+    <i style="font-size: small;">[Per avere informazioni sulla classe prima SIA 4.0 <a href="prima_sia.html">clicca qui</a>]</i>
+    <br>
+    <br>
+    I pilastri del corso sono l'economia aziendale e l'informatica, lo studio dell'informatica è ciò che la differenzia dagli altri corsi.
+    Se le risposte alle prime due domande sono "si" il corso SIA potrebbe essere fatto per te, questo corso rispetto agli altri è incentrato 
+    sulle competenze riguardante il problem solving (=capacità di risoluzione dei problemi) e il ragionamento logico applicate all'economia 
+    aziendale. Aiuta i suoi studenti a raggiungere una formazione ricca e completa incline alla tecnologia e alle sue metodologia più attuali
+    mantenendo anche il profilo economico, inoltre ti fornisce le basi per poter utilizzare la tecnologia in modo creativo e innovativo.                   
+    I macroargomenti affrontati nel percorso informatico del Sia sono i seguenti:
+    </p>
+  </div>
+  <br /><br /><br />
+
+  <!--prof mi perdoni ma ero di fretta e quindi ho trovato la soluzione più veloce-->
+  <img src="immagini/uml_spiegazioni_sistemato.png" class="immagine" />
+  <img src="immagini/uml_2_spiegazioni_sistemato.png" class="immagine" />
+  <br />
+</body>
+
+</html>

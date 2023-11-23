@@ -1,0 +1,15 @@
+Spiegazione di come è stato creato il sito:
+Questo sito è stato creato da capo (senza l'utilizzo di applicazioni o siti internet che facilitano il lavoro) utilizzando HTML e CSS, 
+due linguaggi utilizzati (spesso assieme a javascript) per la formattazione e il design di un sito web.
+Per creare un sito si può utilizzare semplicemente un blocco note e salvarlo come file .html per la formattazione o .css o .js per quanto
+riguarda lo stile o programmi, in questo caso è stato utilizzato Visual Studio Code che è un editor di codice sorgente, spesso utilizzato,
+appunto, per la creazione e la modifica dei siti web.
+Per vedere come si presenta un sito web secondo il lato della programmazione basta cliccare col destro su un punto qualunque
+della pagine web e selezionare "ispeziona", si aprirà una finestra dove potrete leggere il codice html e css della pagina.
+
+// Avete già visto queste immagini da qualche parte?
+se avete guardato cyberpunk edgerunners si, sono stati ritagliati e modificati parti del cartone giapponese/anime per poi assemblarli
+nel sito. //
+
+sito creato da Elena Dochitan.
+grazie per l'attenzione.

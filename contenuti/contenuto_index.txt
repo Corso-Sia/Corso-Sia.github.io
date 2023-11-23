@@ -1,0 +1,33 @@
+INTRODUZIONE AL CORSO SIA:
+hai un interesse per la tecnologia e per la risoluzione di problemi?
+ti ritieni una persona creativa?
+I pilastri del corso sono l'economia aziendale e l'informatica, lo studio dell'informatica è ciò che la differenzia dagli altri corsi.
+Se le risposte alle prime due domande sono "si" il corso SIA potrebbe essere fatto per te, questo corso rispetto agli altri è incentrato 
+sulle competenze riguardante il problem solving (=capacità di risoluzione dei problemi) e il ragionamento logico 
+applicate all'economia aziendale.
+Aiuta i suoi studenti a raggiungere una formazione ricca e completa incline alla tecnologia e alle sue metodologia più attuali mantenendo
+anche il profilo economico aziendale, inoltre ti fornisce le basi per poter utilizzare la tecnologia in modo creativo e innovativo.
+I macroargomenti affrontati nel percorso informatico del Sia sono i seguenti:
+
+(riordinare gli argomenti all'interno dei riquadri preparati)
+Computer:
+distinzione tra hardware e software
+e apprendimento delle varie componenti
+in maniera specifica, concreta per poter
+comprendere al meglio il funzionamento
+degli strumenti tecnologici che utilizziamo
+
+Programmazione:
+apprendimento di linguaggi di programmazione
+che ti permetteranno di creare programmi volti
+al calcolo e alla risoluzione dei problemi proposti.
+In questo ambito sarà possibile comprendere e provare
+come diverse risoluzioni possano portare ad uno stesso
+e giusto risultato.
+
+Database:
+creazione di una base di dati, fondamentale per
+immagazzinare le informazioni necessarie date da clienti
+o dai studenti stessi, necessari per comprendere il funzionamento 
+e per creare software aziendali.
+
